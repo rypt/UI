@@ -33,7 +33,7 @@ class test:
             'automationName': 'UiAutomator2'
         }
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
-        self.driver.implicitly_wait(15)
+        self.driver.implicitly_wait(30)
 
     # 登录
     def login(self, egnum, num, model, *args):
@@ -135,10 +135,10 @@ class test:
 
     # model-3免登录
     def login_start3(self):
-        try:
-            self.driver.find_element_by_xpath('//*[@text="开启新版本"]').click()
-        except:
-            pass
+        # try:
+        #     self.driver.find_element_by_xpath('//*[@text="开启新版本"]').click()
+        # except:
+        #     pass
         self.model = '登录模式3-免登录'
         print(self.model)
 
@@ -310,6 +310,19 @@ class test:
                 list = self.driver.find_elements_by_id(id)
                 if len(list) > 0:
                     self.really = '成功'
+            except:
+                self.error_information(egnum)
+        else:
+            pass
+        self.fu_information(egnum)
+        return self.really
+
+    # class name点击
+    def fc_classname_click(self, egnum, classname, *args):
+        if self.really == '成功':
+            try:
+                temp = self.driver.find_element_by_class_name(classname)
+                temp.click()
             except:
                 self.error_information(egnum)
         else:

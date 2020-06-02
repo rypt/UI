@@ -43,6 +43,6 @@ class Scheduler:
 
 if __name__ == '__main__':
     #保存case表格，清空screenshot
-    a=Scheduler('../Excel/excel_case/case_excel.xls')
-    # a=Scheduler('../Excel/excel_case/case_excel_test.xls')
+    # a=Scheduler('../Excel/excel_case/case_excel.xls')
+    a=Scheduler('../Excel/excel_case/case_excel_test.xls')
     a.start_run(5)
