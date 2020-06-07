@@ -1,4 +1,80 @@
-[1.0, '1', 'start', '学习-小恐龙图标完善孩子信息', '']
+[1.0, '1', 'start', '校园-年龄选择校验', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '3', 'fc_xpath_click', "//*[@text='3岁前' and @class='android.widget.TextView']\n", '']
+['', '4', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='3岁前' and @class='android.widget.TextView']"]
+['', '5', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '6', 'fc_xpath_click', "//*[@text='4-6岁' and @class='android.widget.TextView']\n", '']
+['', '7', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='4-6岁' and @class='android.widget.TextView']"]
+['', '8', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '9', 'fc_xpath_click', "//*[@text='7-8岁' and @class='android.widget.TextView']", '']
+['', '10', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='7-8岁' and @class='android.widget.TextView']"]
+['', '11', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '12', 'fc_xpath_click', "//*[@text='9-10岁' and @class='android.widget.TextView']", '']
+['', '13', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='9-10岁' and @class='android.widget.TextView']"]
+['', '14', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '15', 'fc_xpath_click', "//*[@text='11-12岁' and @class='android.widget.TextView']", '']
+['', '16', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='11-12岁' and @class='android.widget.TextView']"]
+['', '17', 'fc_id_click', 'tv_home_campuses_search_filter_age_category', '']
+['', '18', 'fc_xpath_click', "//*[@text='13岁+' and @class='android.widget.TextView']", '']
+['', '19', 'find_element_xpath', '//*[@text="校园"]', "//*[@text='13岁+' and @class='android.widget.TextView']"]
+['', '20', 'end', '', '']
+[2.0, '3', 'start', '校园-搜索框校验', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_id_click', 'll_home_campuses_search_filter_search', '']
+['', '3', 'fc_id_input_keyboard', 'et_course_search', '哈哈']
+['', '4', 'find_elements_id', 'iv_course_list_pic', '']
+['', '5', 'fc_xpath_click', '//*[@text="取消"]', '']
+['', '6', 'end', '', '']
+[3.0, '5', 'start', '校园-金刚位web直接买', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_xpath_click', '//*[@text="自动化"]', '']
+['', '3', 'fc_xpath_click', '//*[@text="单独购买"]', '']
+['', '4', 'fc_xpath_click', '//*[@text="奖学金支付"]', '']
+['', '5', 'fc_xpath_click', '//*[@text="确认支付"]', '']
+['', '6', 'find_element_xpath', '//*[@text="已支付"]', '//*[@text="订单详情"]']
+['', '7', 'data_checkout', 'group_permission', '1']
+['', '8', 'data_checkout_date', 'expire_date', '360']
+['', '9', 'date_delete_group', '', '']
+['', '10', 'end', '', '']
+[4.0, '6', 'start', '校园-金刚位web拼团买', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_xpath_click', '//*[@text="自动化"]', '']
+['', '3', 'fc_xpath_click', '//*[@text="1人拼团"]', '']
+['', '4', 'fc_xpath_click', '//*[@text="奖学金支付"]', '']
+['', '5', 'fc_xpath_click', '//*[@text="确认支付"]', '']
+['', '6', 'find_element_xpath', '//*[@text="已支付"]', '//*[@text="订单详情"]']
+['', '7', 'data_checkout', 'group_permission', '1']
+['', '8', 'data_checkout_date', 'expire_date', '360']
+['', '9', 'date_delete_group', '', '']
+['', '10', 'end', '', '']
+[5.0, '7', 'start', '校园-搜索原生课程直接买', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_id_click', 'll_home_campuses_search_filter_search', '']
+['', '3', 'fc_id_input_keyboard', 'et_course_search', '自动化测试']
+['', '4', 'fc_xpath_click', '//*[@text="别改改了就跑不了"]', '']
+['', '5', 'fc_xpath_click', '//*[@text="单独购买"]', '']
+['', '6', 'fc_xpath_click', "//*[contains(@text, '奖学金支付')]", '']
+['', '7', 'fc_id_click', 'tv_payment_confirm', '']
+['', '8', 'toast', '下单成功', '']
+['', '9', 'data_checkout', 'group_permission', '1']
+['', '10', 'data_checkout_date', 'expire_date', '1000']
+['', '11', 'date_delete_group', '', '']
+['', '12', 'end', '', '']
+[6.0, '8', 'start', '校园-搜索原生课程拼团买', '']
+['', '1', 'login', '18555258798', '']
+['', '2', 'fc_id_click', 'll_home_campuses_search_filter_search', '']
+['', '3', 'fc_id_input_keyboard', 'et_course_search', '自动化测试']
+['', '4', 'fc_xpath_click', '//*[@text="别改改了就跑不了"]', '']
+['', '5', 'fc_xpath_click', '//*[@text="一人拼团"]', '']
+['', '6', 'fc_xpath_click', "//*[contains(@text, '奖学金支付')]", '']
+['', '7', 'fc_id_click', 'tv_payment_confirm', '']
+['', '8', 'toast', '下单成功', '']
+['', '9', 'data_checkout', 'group_permission', '1']
+['', '10', 'data_checkout_date', 'expire_date', '1000']
+['', '11', 'date_delete_group', '', '']
+['', '12', 'end', '', '']
+[7.0, '1', 'start', '学习-小恐龙图标完善孩子信息', '']
 ['', '1', 'login', '18555258798', '']
 ['', '2', 'fc_xpath_click', '//*[@text="学习"]', '']
 ['', '3', 'fc_id_click', 'iv_home_study_header_image', '']
@@ -10,7 +86,7 @@
 ['', '9', 'fc_xpath_click', '//*[@text="男"]', '']
 ['', '10', 'fc_xpath_click', '//*[@text="保存"]', '']
 ['', '11', 'end', '', '']
-[2.0, '2', 'start', '学习-学习管理冒烟检查', '']
+[8.0, '2', 'start', '学习-学习管理冒烟检查', '']
 ['', '1', 'login', '18555258798', '']
 ['', '2', 'fc_xpath_click', '//*[@text="学习"]', '']
 ['', '3', 'fc_xpath_click', '//*[@text="最近学习"]', '']
@@ -34,7 +110,7 @@
 ['', '21', 'end', '', '']
 ------------------------------------
 start
-['1', '学习-小恐龙图标完善孩子信息', '']
+['1', '校园-年龄选择校验', '']
 ------------------------------------
 login
 ['1', '18555258798', '']
@@ -42,131 +118,5 @@ login
 18134727
 1-1:  成功
 ------------------------------------
-fc_xpath_click
-['2', '//*[@text="学习"]', '']
-1-2:  成功
-------------------------------------
 fc_id_click
-['3', 'iv_home_study_header_image', '']
-1-3:  成功
-------------------------------------
-fc_id_input
-['4', 'et_edit_child_profile_name', '孩子昵称14']
-1-4:  成功
-------------------------------------
-fc_xpath_click
-['5', '//*[@text="孩子生日"]', '']
-1-5:  成功
-------------------------------------
-fc_xpath_click
-['6', '//*[@text="30"]', '']
-1-6:  成功
-------------------------------------
-fc_xpath_click
-['7', '//*[@text="确定"]', '']
-1-7:  成功
-------------------------------------
-fc_xpath_click
-['8', '//*[@text="孩子性别"]', '']
-1-8:  成功
-------------------------------------
-fc_xpath_click
-['9', '//*[@text="男"]', '']
-1-9:  成功
-------------------------------------
-fc_xpath_click
-['10', '//*[@text="保存"]', '']
-1-10:  成功
-------------------------------------
-end
-['11', '', '']
-['1', '2020-06-02 20:13:24', '学习-小恐龙图标完善孩子信息', '成功', '']
-------------------------------------
-start
-['2', '学习-学习管理冒烟检查', '']
-------------------------------------
-login
-['1', '18555258798', '']
-登录模式3-免登录
-18134727
-2-1:  成功
-------------------------------------
-fc_xpath_click
-['2', '//*[@text="学习"]', '']
-2-2:  成功
-------------------------------------
-fc_xpath_click
-['3', '//*[@text="最近学习"]', '']
-2-3:  成功
-------------------------------------
-find_element_xpath
-['4', '//*[@text="最近学习"]', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton\n']
-2-4:  成功
-------------------------------------
-fc_classname_click
-['5', 'android.widget.ImageButton', '']
-2-5:  成功
-------------------------------------
-fc_xpath_click
-['6', '//*[@text="我的课程"]', '']
-2-6:  成功
-------------------------------------
-find_element_xpath
-['7', '//*[@text="综合排序"]', '//*[@text="筛选"]']
-2-7:  成功
-------------------------------------
-fc_xpath_click
-['8', '//*[@text="综合排序"]', '']
-2-8:  成功
-------------------------------------
-fc_xpath_click
-['9', '//*[@text="筛选"]', '']
-2-9:  成功
-------------------------------------
-fc_classname_click
-['10', 'android.widget.ImageButton', '']
-2-10:  成功
-------------------------------------
-fc_xpath_click
-['11', '//*[@text="荣誉证书"]', '']
-2-11:  成功
-------------------------------------
-find_element_xpath
-['12', '//*[@text="能力证书"]', '//*[@text="学习证书"]']
-2-12:  成功
-------------------------------------
-fc_xpath_click
-['13', '//*[@text="能力证书"]', '']
-2-13:  成功
-------------------------------------
-fc_xpath_click
-['14', '//*[@text="学习证书"]', '']
-2-14:  成功
-------------------------------------
-fc_classname_click
-['15', 'android.widget.ImageButton', '']
-2-15:  成功
-------------------------------------
-fc_xpath_click
-['16', '//*[@text="我的收藏"]', '']
-2-16:  成功
-------------------------------------
-find_element_xpath
-['17', '//*[@text="课程"]', '//*[@text="故事"]']
-2-17:  成功
-------------------------------------
-fc_xpath_click
-['18', '//*[@text="课程"]', '']
-2-18:  成功
-------------------------------------
-fc_xpath_click
-['19', '//*[@text="故事"]', '']
-2-19:  成功
-------------------------------------
-fc_classname_click
-['20', 'android.widget.ImageButton', '']
-2-20:  成功
-------------------------------------
-end
-['21', '', '']
-['2', '2020-06-02 20:14:06', '学习-学习管理冒烟检查', '成功', '']
+['2', 'tv_home_campuses_search_filter_age_category', '']

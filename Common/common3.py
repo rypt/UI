@@ -406,3 +406,6 @@ class test:
 # 日志输出
 sys.stdout = test('../Log/log/text.log', sys.stdout)
 sys.stderr = test('../Log/a.log_file', sys.stderr)
+"""
+2.0
+"""
