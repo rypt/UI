@@ -19,7 +19,7 @@ class test:
     def appium_start(self, *args):
         self.desired_caps = {
             'platformName': 'Android',  # 被测手机是安卓
-            'platformVersion': '8.0.0',  # 手机安卓版本
+            'platformVersion': '9.0.0',  # 手机安卓版本
             # 'Device Name':'ip:port',
             'deviceName': '192.168.11.180:5556',  # 设备名，安卓手机可以随意填写
             'appPackage': 'com.qinlin.ahaschool',  # 启动APP Package名称
@@ -30,7 +30,8 @@ class test:
             # 'skipServerInstallation': True,
             # 'skipDeviceInitialization': True,
             'newCommandTimeout': 6000,  # 超时断开
-            'automationName': 'UiAutomator2'
+            'automationName': 'UiAutomator2',
+            'udid':'AGYDU18727006189'
         }
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desired_caps)
         self.driver.implicitly_wait(30)

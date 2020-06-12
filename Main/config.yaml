@@ -1,0 +1,38 @@
+- platformName: Android
+  name : huawei_nova3i
+  try_num : 2
+  udid: AGYDU18727006189
+  ip: 127.0.0.1
+  port: 4723
+  bootstrap: 4724
+  platformVersion: 9.0.0
+  deviceName: AGYDU18727006189
+  appPackage: com.qinlin.ahaschool
+  appActivity: .view.activity.LaunchActivity
+  noReset: True
+  unicodeKeyboard: True
+  resetKeyboard: True
+  automationName: UiAutomator2
+  newCommandTimeout: 6000
+  wait_time : 60
+  casepath : ../Excel/excel_case/case_android_6.1.1.xls
+
+- platformName: Android
+  name : huawei_Honor7A
+  try_num: 2
+  udid: MQM9X18506W14917
+  ip: 127.0.0.1
+  port: 4725
+  bootstrap: 4726
+  platformVersion: 8.0.0
+  deviceName: MQM9X18506W14917
+  appPackage: com.qinlin.ahaschool
+  appActivity: .view.activity.LaunchActivity
+  noReset: True
+  unicodeKeyboard: True
+  resetKeyboard: True
+  automationName: UiAutomator2
+  newCommandTimeout: 6000
+  wait_time: 25
+  casepath: ../Excel/excel_case/case_6.1_android.xls
+

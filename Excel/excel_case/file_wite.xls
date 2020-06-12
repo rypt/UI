@@ -1,0 +1,44 @@
+4 	start	android国外手机号登录			
+1 	appium_start				
+2 	login_choose	9012345678 	//*[@text="日本 +81"]	日本	81 
+3 	find_element_xpath	//*[@text="全部课程"]			
+4 	fc_xpath_click	//*[@text="我"]			
+5 	fc_xpath_click	//*[@text="设置"]			
+6 	fc_xpath_click	//*[@text="退出登录"]			
+7 	fc_xpath_click	//*[@text="确定"]			
+8 	end				
+	start	学习-小恐龙图标完善孩子信息			
+	login	18555258798			
+	fc_xpath_click	//*[@text="学习"]			
+	fc_id_click	iv_home_study_header_image			
+	fc_id_input	et_edit_child_profile_name	孩子昵称14		
+	fc_xpath_click	//*[@text="孩子生日"]			
+	fc_xpath_click	//*[@text="30"]			
+	fc_xpath_click	//*[@text="确定"]			
+	fc_xpath_click	//*[@text="孩子性别"]			
+	fc_xpath_click	//*[@text="男"]			
+	fc_xpath_click	//*[@text="保存"]			
+	end				
+	start	学习-学习管理冒烟检查			
+	login	18555258798			
+	fc_xpath_click	//*[@text="学习"]			
+	fc_xpath_click	//*[@text="最近学习"]			
+	find_element_xpath	//*[@text="最近学习"]	"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton
+"		
+	fc_classname_click	android.widget.ImageButton			
+	fc_xpath_click	//*[@text="我的课程"]			
+	find_element_xpath	//*[@text="综合排序"]	//*[@text="筛选"]		
+	fc_xpath_click	//*[@text="综合排序"]			
+	fc_xpath_click	//*[@text="筛选"]			
+	fc_classname_click	android.widget.ImageButton			
+	fc_xpath_click	//*[@text="荣誉证书"]			
+	find_element_xpath	//*[@text="能力证书"]	//*[@text="学习证书"]		
+	fc_xpath_click	//*[@text="能力证书"]			
+	fc_xpath_click	//*[@text="学习证书"]			
+	fc_classname_click	android.widget.ImageButton			
+	fc_xpath_click	//*[@text="我的收藏"]			
+	find_element_xpath	//*[@text="课程"]	//*[@text="故事"]		
+	fc_xpath_click	//*[@text="课程"]			
+	fc_xpath_click	//*[@text="故事"]			
+	fc_classname_click	android.widget.ImageButton			
+	end				
