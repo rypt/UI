@@ -1,0 +1,16 @@
+13 	start	微信购买会员	
+14 	appium_start		
+15 	login	18555258798	3 
+16 	fc_xpath_click	//*[@text="我"]	
+17 	fc_id_click	tv_open_membership	
+18 	fc_xpath_click	"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.view.View
+"	
+19 	fc_xpath_click	//*[@text="立即购买"]	
+20 	fc_xpath_click	//*[@text="微信支付"]	
+21 	fc_xpath_click	//*[@text="确认支付"]	
+22 	fc_xpath_click	//*[@text="立即支付"]	
+23 	fc_weixing		
+24 	fc_xpath_click	//*[@text="返回商家"]	
+25 	time_wite		
+26 	data_checkout_date	expire_time	30
+27 	end		

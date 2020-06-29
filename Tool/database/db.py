@@ -23,6 +23,9 @@ class domysql():
         elif select == 'expire_date':
             sql = "SELECT expire_date FROM live.h_live_user_group_permission where user_id ='{}'order by updated_at desc limit 1;".format(
                 num)
+        elif select == 'expire_time':
+            sql = "SELECT expire_time FROM member.h_member where user_id ='{}'order by updated_at desc limit 1;".format(
+                num)
         elif select == 'user_id':
             sql = "SELECT user_id FROM hjm.h_user where mobile='{}';".format(num)
         else:
